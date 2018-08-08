@@ -3,11 +3,13 @@ server:
 spring:
   application:
     name: spring-cloud-config-server
+#  profiles:    #Config Serverä¼šé»˜è®¤ä»åº”ç”¨çš„src/main/resourceç›®å½•ä¸‹æ£€ç´¢é…ç½®æ–‡ä»¶ã€‚ä¹Ÿå¯ä»¥é€šè¿‡spring.cloud.config.server.native.searchLocations=file:E:/properties/å±æ€§æ¥æŒ‡å®šé…ç½®æ–‡ä»¶çš„ä½ç½®ã€‚
+#    active: native
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/youxinzhu/cloudsample/     # ÅäÖÃgit²Ö¿âµÄµØÖ·
-          search-paths: config-repo                             # git²Ö¿âµØÖ·ÏÂµÄÏà¶ÔµØÖ·£¬¿ÉÒÔÅäÖÃ¶à¸ö£¬ÓÃ,·Ö¸î¡£
-          username:                                             # git²Ö¿âµÄÕËºÅ
-          password:                                             # git²Ö¿âµÄÃÜÂë
+          uri: https://github.com/youxinzhu/cloudsample/
+          search-paths: config-repo
+          username: youxinzhu110@126.com
+          password: 7aq283jyou
